@@ -1,0 +1,9 @@
+test_001_1__1__1__2_ (case.TestAdd) ... ok
+test_001_2__2__3__4_ (case.TestAdd) ... ok
+test_001_3__1__2__7_ (case.TestAdd) ... ok
+test_001_4__1___1__0_ (case.TestAdd) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK
