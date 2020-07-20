@@ -32,7 +32,24 @@
 #     del dic["K"]
 # print(dic)
 
-li = [1,2,546,76]
-for i in  li:
-    del li[1]
-print(li)
+# li = [1,2,546,76]
+# for i in  li:
+#     del li[1]
+# print(li)
+l1 = [1,2,4]
+l2 = [1,2,4]
+print(f"l1的id是：{id(l1)}")
+print(f"l2的id是：{id(l2)}")
+a =1
+b =1
+print(f"a的id是：{id(a)}")
+print(f"b的id是：{id(b)}")
+def func1():
+    c =1
+    print(f"c的id是：{id(c)}")
+func1()
+def func2():
+    d = 1
+    print(f"d的id是：{id(d)}")
+
+func2()
