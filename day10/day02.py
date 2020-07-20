@@ -52,6 +52,7 @@ with open("./shopping.txt",mode = "r",encoding="utf-8") as f:
     for line in f:
         dic = {}
         new_line = line.strip('').split()
+        print(new_line)
         for i in range(len(li1)):
             dic[li1[i]] = new_line[i]
         li.append(dic)
